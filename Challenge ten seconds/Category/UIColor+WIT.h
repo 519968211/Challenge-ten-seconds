@@ -1,0 +1,19 @@
+//
+//  UIColor+Extension.h
+//  wallet-ios
+//
+//  Created by Ocean on 9/15/15.
+//  Copyright (c) 2015 Ocean. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface UIColor (WIT)
+
++ (UIColor *)colorWithHexString:(NSString *)color;
+
+//从十六进制字符串获取颜色，
+//color:支持@“#123456”、 @“0X123456”、 @“123456”三种格式
++ (UIColor *)colorWithHexString:(NSString *)color alpha:(CGFloat)alpha;
+
+@end

@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  Challenge ten seconds
+
+  Created by 519968211 on 2019/7/25.
+  Copyright © 2019 519968211. All rights reserved.
+*/
+
+"ok" = "Хорошо";
+"start" = "Начните";
+"stop" = "стоп";
+"again" = "снова";
+"menu" = "меню";
